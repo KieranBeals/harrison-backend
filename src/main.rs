@@ -43,7 +43,7 @@ async fn main() {
 
 async fn dummy_data() -> String {
     let response = serde_json::json!({
-        "image": "data:image/png;base64,encoded_string" // TODO: Ask william if I can use his image
+        "image": "data:image/png;base64,encoded_string_test"
     });
 
     response.to_string()
